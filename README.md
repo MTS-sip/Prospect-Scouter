@@ -39,20 +39,20 @@ This project is licensed under the MIT
 
 Key technologies used for development:
 
-VS Code: IDE VSC
+--**VS Code**: [VSC IDE](https://code.visualstudio.com/)
 Render: Cloud Application Platform Render
 GitHub Github
 Vite: Local Dev Server Vite
 React
 Typescript: JavaScript w/syntax for types Typescript
 NPM: Package manager for js npm
-CoPilot CoPilot for GitHub:
-HTML HTML
-CSS CSS
+
+- **CoPilot** CoPilot GitHub: [Copilot for GitHub](https://github.com/features/copilot?ef_id=_k_Cj0KCQjw4v6-BhDuARIsALprm30F26jOBa_tX-MdbRzSHmPNFiQCmfhZXt1XYobPc8mf7E3NM44SAmQaAipREALw_wcB_k_&OCID=AIDcmmb150vbv1_SEM__k_Cj0KCQjw4v6-BhDuARIsALprm30F26jOBa_tX-MdbRzSHmPNFiQCmfhZXt1XYobPc8mf7E3NM44SAmQaAipREALw_wcB_k_&gad_source=1&gclid=Cj0KCQjw4v6-BhDuARIsALprm30F26jOBa_tX-MdbRzSHmPNFiQCmfhZXt1XYobPc8mf7E3NM44SAmQaAipREALw_wcB)
+  CSS CSS
 
 ## Contributing
 
-MTS-Sip Michael S.
+MTS-Sip
 
 Dev/Starter Code, RU BCS
 
