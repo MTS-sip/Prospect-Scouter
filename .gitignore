@@ -23,5 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Added .env token 3/23-see if effects load like other if repo contains .env
-.env
