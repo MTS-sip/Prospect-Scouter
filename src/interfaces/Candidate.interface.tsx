@@ -1,5 +1,4 @@
-// TODO: Create an interface for the Candidate objects returned by the API
-// import Candidate from "../pages/CandidateSearch";
+// interface for the Candidate objects returned by the API
 
 export interface Candidate {
     login: string;
