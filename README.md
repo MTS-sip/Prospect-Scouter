@@ -4,9 +4,7 @@
 
 - Link 🟢 Deployed URL 🔹 [Prospect Scouter on RENDER](https://prospect-scouter.onrender.com/) 🔹
 
-- Link 🔴 GitHub Repository 🔴[MTS-sip/Prospect-Scouter](https://github.com/MTS-sip/Prospect-Scouter)
-
-GitHub Repository (GitHub Repository)
+- Link 🔴 GitHub Repository [MTS-sip/Prospect-Scouter](https://github.com/MTS-sip/Prospect-Scouter) 🔴
 
 ## Description
 
@@ -14,21 +12,19 @@ Application allows user ...
 
 ### Table of Contents
 
-Usage
-Images
-License
-Technology
-Contributing
-User Story &
-Acceptance Criteria
-README
+- Usage
+- Images
+- License
+- Technology
+- Contributing
+- User Story &
+- Acceptance Criteria
 
 ### Usage & Testing
 
-- 1. The functionality of this app can be tested directly by visiting [https://prospect-scouter.onrender.com](https://prospect-scouter.onrender.com/)
+- The functionality of this app can be tested directly by visiting [https://prospect-scouter.onrender.com](https://prospect-scouter.onrender.com/)
 
-- 2. If the user desires to clone and create their own deployment, the application code can be found at [Prospect-Scouter](https://github.com/MTS-sip/)
-  -
+- If the user desires to clone and create their own deployment, the application code can be found at [Prospect-Scouter](https://github.com/MTS-sip/)
 
 ### Images
 
@@ -39,7 +35,8 @@ Mock up image 2
 ### License
 
 This project is licensed under the MIT
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Technology
 
@@ -62,7 +59,8 @@ Key technologies used for development:
 
 ### User Story
 
-- AS AN employer
+🔹 AS AN employer
+
 - I WANT a candidate search application
 - SO THAT I can hire the best candidates
 
@@ -86,7 +84,3 @@ Key technologies used for development:
 - THEN an appropriate message should be displayed indicating no candidates have been accepted
 - WHEN I click the "-" button
 - THEN the next candidate's information should be displayed without saving the current candidate
-
-### README
-
-- README
