@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Candidate  } from '../interfaces/Candidate.interface';
+import { Candidate } from '../interfaces/Candidate.interface';
 import CandidateCard from '../components/CandidateCard';
 
 const SavedCandidates = () => {
@@ -27,7 +27,3 @@ const SavedCandidates = () => {
 };
 
 export default SavedCandidates;
-
-
-
-
