@@ -30,7 +30,7 @@ Application allows user ...
 
 Mock image 1
 
-Mock up image 2
+Mock image 2
 
 ### License
 
