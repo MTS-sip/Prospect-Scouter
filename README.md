@@ -28,7 +28,7 @@ Application allows user ...
 
 ### Images
 
-Mock up image 1
+Mock image 1
 
 Mock up image 2
 
