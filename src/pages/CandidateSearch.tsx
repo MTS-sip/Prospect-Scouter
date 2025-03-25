@@ -41,13 +41,6 @@ const CandidateSearch = () => {
 
   const candidate = candidates[currentIndex];
 
-  <div style={{ padding: '2rem 1rem 1rem' }}>
-  <h2>Candidate Search</h2>
-  <CandidateCard candidate={candidate} />
-  <CandidateSearchControls onAccept={saveCandidate} onSkip={goToNext} />
-</div>
-}
-  /*
   return (
     <div style={{ padding: '1rem' }}>
       <h2>Candidate Search</h2>
@@ -55,7 +48,6 @@ const CandidateSearch = () => {
       <CandidateSearchControls onAccept={saveCandidate} onSkip={goToNext} />
     </div>
   );
-};
-*/
+}
 
 export default CandidateSearch;
