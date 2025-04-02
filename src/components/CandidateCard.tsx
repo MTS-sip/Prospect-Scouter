@@ -20,7 +20,7 @@ const CandidateCard = ({ candidate }: Props) => {
       <div
         style={{
           background: '#fff',
-          padding: '1rem',
+          height: '250px', // fixed height for top half/ avatar still elongated
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -29,9 +29,12 @@ const CandidateCard = ({ candidate }: Props) => {
         <img
           src={candidate.avatar_url}
           alt={candidate.login}
-          width="100"
-          height="250"
-          style={{ borderRadius: '50%' }}
+          width="120"
+          height="120"
+          style={{
+            borderRadius: '50%',
+            objectFit: 'cover',
+          }}
         />
       </div>
 
@@ -41,6 +44,7 @@ const CandidateCard = ({ candidate }: Props) => {
           background: '#000',
           color: '#fff',
           padding: '1rem',
+          height: '250px', 
         }}
       >
         <p><strong>Name:</strong> {candidate.name || 'N/A'}</p>
@@ -69,7 +73,6 @@ const CandidateCard = ({ candidate }: Props) => {
 };
 
 export default CandidateCard;
-
 
 
 
