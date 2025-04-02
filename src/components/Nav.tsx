@@ -2,19 +2,39 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav style={{
-      display: 'flex',
-      justifyContent: 'flex-start',
-      alignItems: 'center',
-      padding: '1rem',
-      background: 'transparent',
-      position: 'relative',
-      zIndex: 1, // ensures it's visually on top if needed
-    }}>
-      <Link to="/" style={{ color: 'white', textDecoration: 'none', marginRight: '2rem' }}>
+    <nav
+      style={{
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        padding: '1rem 2rem',
+        background: 'transparent', // or use a solid color like '#111' if needed
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        zIndex: 10,
+      }}
+    >
+      <Link
+        to="/"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+          marginRight: '2rem',
+          fontWeight: 'bold',
+        }}
+      >
         Home
       </Link>
-      <Link to="/SavedCandidates" style={{ color: 'white', textDecoration: 'none' }}>
+      <Link
+        to="/SavedCandidates"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+          fontWeight: 'bold',
+        }}
+      >
         Potential Candidates
       </Link>
     </nav>
