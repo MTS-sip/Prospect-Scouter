@@ -3,7 +3,7 @@ interface ControlsProps {
   onSkip: () => void;
 }
 
-export const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
+const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
   return (
     <div
       style={{
@@ -12,7 +12,7 @@ export const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => 
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '0 1rem',
-        gap: '1rem', 
+        gap: '1rem',
       }}
     >
       <button
@@ -54,3 +54,5 @@ export const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => 
     </div>
   );
 };
+
+export default CandidateSearchControls;
