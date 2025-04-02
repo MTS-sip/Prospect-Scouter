@@ -8,7 +8,7 @@
 
 ## Description
 
-Application allows user ...
+Application calls the GitHub API, retrieves and renders data in the browser. Functions as a useful candidate search tool. Specific fuctionality is described in User Story/Acceptance Criteria below in this README
 
 ### Table of Contents
 

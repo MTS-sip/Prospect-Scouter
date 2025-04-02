@@ -3,6 +3,8 @@ interface ControlsProps {
   onSkip: () => void;
 }
 
+// CandidateSearchControls component
+// This component is responsible for rendering the accept and skip buttons
 const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
   return (
     <div

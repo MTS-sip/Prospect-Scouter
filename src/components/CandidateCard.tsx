@@ -1,9 +1,10 @@
+// import interface
 import { Candidate } from '../interfaces/Candidate.interface';
 
 interface Props {
   candidate: Candidate;
 }
-
+// CandidateCard component
 const CandidateCard = ({ candidate }: Props) => {
   return (
     <div
