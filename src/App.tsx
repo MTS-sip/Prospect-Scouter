@@ -1,8 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
 
-
-
 function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -13,6 +11,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

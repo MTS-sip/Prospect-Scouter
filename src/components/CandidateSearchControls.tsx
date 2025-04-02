@@ -21,7 +21,10 @@ const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
           borderRadius: '50%',
           width: '40px',
           height: '40px',
-          fontSize: '20px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '30px',
           cursor: 'pointer'
         }}
       >
@@ -36,7 +39,10 @@ const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
           borderRadius: '50%',
           width: '40px',
           height: '40px',
-          fontSize: '20px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '30px',
           cursor: 'pointer'
         }}
       >
