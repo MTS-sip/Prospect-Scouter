@@ -30,11 +30,11 @@ Application allows user ...
 
 **Mock up image 1**
 
-![Mock up image 1](./src/Assets/mock-up-image-1.png)
+![Mock up image 1](/src/Assets/mock-up-image-1.png)
 
 **Mock up image 2**
 
-![Mock up image 2](./src/Assets/mock-up-image-2.png)
+![Mock up image 2](/src/Assets/mock-up-image-2.png)
 
 ### License
 
