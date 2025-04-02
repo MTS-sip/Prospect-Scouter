@@ -30,7 +30,7 @@ const CandidateCard = ({ candidate }: Props) => {
           src={candidate.avatar_url}
           alt={candidate.login}
           width="100"
-          height="100"
+          height="250"
           style={{ borderRadius: '50%' }}
         />
       </div>
