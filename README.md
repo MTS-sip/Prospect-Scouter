@@ -1,4 +1,4 @@
-# Prospect Scouter
+# Prospect Scouter test repo
 
 ## Links
 
