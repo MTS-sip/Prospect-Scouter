@@ -47,11 +47,11 @@ const CandidateCard = ({ candidate }: Props) => {
           height: '250px', 
         }}
       >
-        <p><strong>Name:</strong> {candidate.name || 'N/A'}</p>
+        <p>{candidate.name || 'N/A'}</p>
         <p><strong>Username:</strong> {candidate.login}</p>
-        <p><strong>Location:</strong> {candidate.location || 'N/A'}</p>
+        <p>Location:{candidate.location || 'N/A'}</p>
         <p>
-          <strong>Email:</strong>{' '}
+          Email:{' '}
           {candidate.email ? (
             <a href={`mailto:${candidate.email}`} style={{ color: 'inherit' }}>
               {candidate.email}
@@ -60,9 +60,9 @@ const CandidateCard = ({ candidate }: Props) => {
             'N/A'
           )}
         </p>
-        <p><strong>Company:</strong> {candidate.company || 'N/A'}</p>
+        <p>Company:{candidate.company || 'N/A'}</p>
         <p>
-          <strong>GitHub:</strong>{' '}
+          GitHub:{' '}
           <a href={candidate.html_url} target="_blank" rel="noopener noreferrer">
             View Profile
           </a>
