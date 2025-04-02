@@ -26,7 +26,7 @@ const SavedCandidates = () => {
       <h2 style={{ marginBottom: '1rem', color: 'white' }}>Potential Candidates</h2>
       <div style={{ display: 'grid', gridTemplateColumns: '100px 1fr 1fr 1fr 1fr 1fr 100px', backgroundColor: 'black', color: 'white', padding: '0.5rem', fontWeight: 'bold' }}>
         <div>Image</div>
-        <div>Username</div>
+        <div>Name</div>
         <div>Location</div>
         <div>Email</div>
         <div>Company</div>
@@ -52,7 +52,25 @@ const SavedCandidates = () => {
           <div>{candidate.company || 'N/A'}</div>
           <div><a href={candidate.html_url} target="_blank" rel="noreferrer" style={{ color: '#61dafb' }}>GitHub</a></div>
           <div>
-            <button onClick={() => handleReject(candidate.login)} style={{ background: 'red', color: 'white', border: 'none', borderRadius: '4px', padding: '0.3rem 0.5rem', cursor: 'pointer' }}>Reject</button>
+          <button
+  onClick={() => handleReject(candidate.login)}
+  style={{
+    background: 'red',
+    color: 'white',
+    border: 'none',
+    borderRadius: '50%',
+    width: '2rem',
+    height: '2rem',
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '1rem',
+    lineHeight: 1,
+  }}
+>
+  -
+</button>
           </div>
         </div>
       ))}
