@@ -3,15 +3,18 @@ interface ControlsProps {
   onSkip: () => void;
 }
 
-const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
+export const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
   return (
-    <div style={{
-      marginTop: '1rem',
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '0 1rem',
-    }}>
+    <div
+      style={{
+        marginTop: '1rem',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: '0 1rem',
+        gap: '1rem', 
+      }}
+    >
       <button
         onClick={onSkip}
         style={{
@@ -19,13 +22,13 @@ const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
           color: 'black',
           border: 'none',
           borderRadius: '50%',
-          width: '40px',
-          height: '40px',
+          width: '50px',
+          height: '50px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          fontSize: '30px',
-          cursor: 'pointer'
+          fontSize: '24px',
+          cursor: 'pointer',
         }}
       >
         -
@@ -37,13 +40,13 @@ const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
           color: 'black',
           border: 'none',
           borderRadius: '50%',
-          width: '40px',
-          height: '40px',
+          width: '50px',
+          height: '50px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          fontSize: '30px',
-          cursor: 'pointer'
+          fontSize: '24px',
+          cursor: 'pointer',
         }}
       >
         +
@@ -51,5 +54,3 @@ const CandidateSearchControls = ({ onAccept, onSkip }: ControlsProps) => {
     </div>
   );
 };
-
-export default CandidateSearchControls;
