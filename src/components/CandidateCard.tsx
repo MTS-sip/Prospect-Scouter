@@ -20,7 +20,7 @@ const CandidateCard = ({ candidate }: Props) => {
       <div
         style={{
           background: '#fff',
-          height: '250px', // fixed height for top half/ avatar still elongated
+          height: '250px', 
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',

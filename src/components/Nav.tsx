@@ -9,7 +9,7 @@ const Nav = () => {
         justifyContent: 'flex-start',
         alignItems: 'center',
         padding: '1rem 2rem',
-        background: 'transparent', // or use a solid color like '#111' if needed
+        background: 'transparent', 
         position: 'fixed',
         top: 0,
         left: 0,
